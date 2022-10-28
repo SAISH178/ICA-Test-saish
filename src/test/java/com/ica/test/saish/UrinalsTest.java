@@ -49,7 +49,7 @@ public class UrinalsTest {
 	@Test
 	void test6() {
 		Urinals urinals = new Urinals();
-		String str = "011";
+		String str = "111";
 		int res = urinals.countUrinals(str);
 		assertEquals(-1, res);
 	}
