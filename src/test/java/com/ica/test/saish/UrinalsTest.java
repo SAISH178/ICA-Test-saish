@@ -25,7 +25,7 @@ public class UrinalsTest {
 	@Test
 	void test3() {
 		Urinals urinals = new Urinals();
-		String str = "00000";
+		String str = "10000";
 		int res = urinals.countUrinals(str);
 		assertEquals(3, res);
 	}
